@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(rgba(0,0,50,0),rgba(0,0,50,0)),url(bg.png); 
+    background-size: cover;
+}
+
+.container{
+    padding: 20px;
+}
+
+
+
+.login-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 480px;
+    float:none;
+    margin:150px auto;
+    box-shadow: 0 0 10px 0 rgba(67, 52, 52, 0.2);
+}
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
